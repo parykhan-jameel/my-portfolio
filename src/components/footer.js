@@ -9,8 +9,8 @@ export default function Footer() {
     Aos.init({duration:2000})
   },[])
     return (
-        <footer className="bg-gray-900 text-white p-8">
-        <div className="flex items-center justify-center space-x-4">
+        <footer className="bg-gray-900 text-white p-8 ">
+        <div className="flex items-center justify-center space-x-4 ">
        <div  className='flex gap-4 flex-row justify-center items-center'>
        <div  className='text-[#8892b0] hover:text-[#A5FFC9] hover:cursor-pointer hover:ease-in-out duration-300 '>
         <a href='https://github.com/parykhan-jameel' target='_blank' rel="noopener noreferrer">

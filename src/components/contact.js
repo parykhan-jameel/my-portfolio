@@ -66,10 +66,11 @@ export default function Contact() {
 
   return (
   <section id="contact"  className="text-gray-400 py-10 px-5 bg-gray-900 body-font">
-    <div className="container h-screen flex justify-center    mx-auto  text-center lg:px-40">
+    <div className="container  flex justify-center  mx-auto  text-center lg:px-40">
       <div className="w-1/3 p-8">
         <h2 data-aos= "fade-up" className="sm:text-4xl text-3xl font-medium title-font my-8 text-[#ccd6f6]">Get in touch</h2>
-        <p data-aos="fade-right" className='lg:w-2/3 xl:w-2/4 mx-auto leading-relaxed text-base text-[#8892b0] mb-4 '>If you'd like to discuss a potential collaboration or just geek out about frontend development, let's connect! </p>
+        <p data-aos="fade-right" className='lg:w-2/3 xl:w-2/4  mx-auto  leading-relaxed text-md text-[#8892b0] mb-4 '> let's connect! </p>
+      <div className='mt-5 max-w-5xl'>
         <form data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className="space-y-4" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name" className="block font-medium text-[#8892b0]">
@@ -115,7 +116,7 @@ export default function Contact() {
               id="message"
               name="message"
               rows="4"
-              className={`w-full bg-gray-800 border p-2 rounded ${
+              className={` w-full bg-gray-800 border p-2 rounded ${
                 formErrors.message ? 'border-red-500' : 'border-gray-700'
               }`}
               value={formData.message}
@@ -127,13 +128,14 @@ export default function Contact() {
           </div>
             <button
             type="submit"
-            className="bg-gray-900 border border-[#A5FFC9] text-[#A5FFC9] px-4 py-2 outline-none rounded hover:bg-[#A5FFC9] hover:text-gray-900 text-lg  ease-in-out hover:scale-110  duration-700"
+            className=" bg-gray-900 border border-[#A5FFC9] text-[#A5FFC9] px-4 py-2 outline-none rounded hover:bg-[#A5FFC9] hover:text-gray-900 text-lg  ease-in-out hover:scale-110  duration-700"
 
           >
             Submit
             </button>
            
         </form>
+        </div>
       </div>
       
     </div>

@@ -18,7 +18,7 @@ export default function Skills() {
     ];
     return (
         <section id="skills">
-          <div className="container h-screen px-5 py-10 mx-auto">
+          <div className="container  px-5 py-10 mx-auto">
             <div className="text-center mb-20">
              <FontAwesomeIcon icon={faMicrochip}  className="fa-2xl hover:fa-bounce" style={{color:"#A5FFC9"}} />
               <br/>
