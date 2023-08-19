@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-scroll"
 //import {ReactComponent as Illustration} from "../images/hero.svg";
 
 export default function Hero() {
@@ -15,16 +16,16 @@ export default function Hero() {
             </h1>
           
             <div className="flex justify-center">
-              <a
-              href="#contact"
-              className="  inline-flex  text-[#A5FFC9] bg-gray-900 border border-[#A5FFC9]  py-2 px-6 focus:outline-none   hover:bg-[#A5FFC9] hover:text-gray-900   hover:scale-110 duration-700 ease-in-out rounded text-lg">
+              <Link
+              to="contact" spy={true} smooth={true} offset={50} duration={500}
+              className="  inline-flex  text-[#A5FFC9] bg-gray-900 border border-[#A5FFC9]  py-2 px-6 focus:outline-none   hover:bg-[#A5FFC9] hover:text-gray-900   hover:scale-110 duration-700 ease-in-out rounded text-lg cursor-pointer">
               Contact Me 
-              </a>
-              <a
-              href="#projects"
-              className=" ml-4 inline-flex text-[#A5FFC9] bg-gray-900 border border-[#A5FFC9] py-2 px-6 focus:outline-none  hover:bg-[#A5FFC9] hover:text-gray-900  hover:scale-110 duration-700 ease-in-out rounded text-lg">
+              </Link>
+              <Link
+              to="projects" spy={true} smooth={true} offset={-100} duration={500}
+              className=" ml-4 inline-flex text-[#A5FFC9] bg-gray-900 border border-[#A5FFC9] py-2 px-6 focus:outline-none  hover:bg-[#A5FFC9] hover:text-gray-900  hover:scale-110 duration-700 ease-in-out rounded text-lg cursor-pointer">
                Projects
-              </a>
+              </Link>
             </div>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-700 rounded-full w-80 h-80 overflow-hidden mr-5  sm:mx-auto  ">

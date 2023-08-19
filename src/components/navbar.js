@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="  flex items-center justify-between "> 
             <div className="mx-7">
               <h4 className="text-4xl uppercase font-bold ">
-                 Pary<span className="text-[#A5FFC9]">khan</span>
+                 <span className="text-[ccd6f6]">Pary</span><span className="text-[#A5FFC9]">khan</span>
               </h4>
             </div>
              <div className={`${sticky ? "md:bg-[#ccd6f6]/0 bg-[#ccd6f6]":"bg-[#ccd6f6]"}text-gray-900 md:block hidden px-7 py-2 font-medium  rounded-bl-full`}>

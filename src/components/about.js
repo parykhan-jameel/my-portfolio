@@ -25,7 +25,7 @@ export default function About() {
            <h3 className='sm:text-xl text-lg font-medium title-font  text-[#ccd6f6] mb-4'>Looking forward to connecting with fellow developers and enthusiasts alike! 🌟</h3>
         
            <div className='flex flex-col items-center justify-center'>
-           <a href='https://www.canva.com/design/DAFP9c-c_D8/CcHbT3dAwY7KBmvWdTKz1g/view?utm_content=DAFP9c-c_D8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target='_blank' rel="noopener noreferrer">
+           <a href="https://www.canva.com/design/DAFP9c-c_D8/CcHbT3dAwY7KBmvWdTKz1g/view?utm_content=DAFP9c-c_D8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target='_blank' rel="noopener noreferrer">
             <button  data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" className='inline-flex  text-[#A5FFC9] bg-gray-900 border border-[#A5FFC9]  py-2 px-6 focus:outline-none  hover:bg-[#A5FFC9] hover:text-gray-900    hover:scale-110 ease-in-out duration-700 rounded text-lg'>View My Resume</button>
             </a>
            </div>
