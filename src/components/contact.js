@@ -56,7 +56,7 @@ export default function Contact() {
     });
     setFormErrors({});
 
-    // TODO: Send form data to server or perform other actions
+   
     console.log(formData);
    
   };
@@ -65,12 +65,17 @@ export default function Contact() {
   },[])
 
   return (
-  <section id="contact"  className="text-gray-400 py-10 px-5 bg-gray-900 body-font">
-    <div className="container  flex justify-center  mx-auto  text-center lg:px-40">
-      <div className="w-1/3 p-8">
-        <h2 data-aos= "fade-up" className="sm:text-4xl text-3xl font-medium title-font my-8 text-[#ccd6f6]">Get in touch</h2>
+  <section id="contact"  >
+    <div className="container px-5 py-10 mx-auto">
+      <div className="text-center mb-20">
+        <h2 data-aos= "fade-up" className="sm:text-4xl text-2xl font-medium title-font mb-4 text-[#ccd6f6]">Get in touch
+          <span  className="absolute left-1/2 transform -translate-x-1/2 bottom-[-0.5rem] h-0.5 bg-[#8892b0]"
+            style={{ width: "25%" }}>
+
+          </span>
+        </h2>
         <p data-aos="fade-right" className='lg:w-2/3 xl:w-2/4  mx-auto  leading-relaxed text-md text-[#8892b0] mb-4 '> let's connect! </p>
-      <div className='mt-5 max-w-5xl'>
+      <div className='mt-5 max-w-5xl mx-auto'>
         <form data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className="space-y-4" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name" className="block font-medium text-[#8892b0]">

@@ -1,3 +1,5 @@
+const { animate } = require('framer-motion')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mod: "jit",
@@ -20,14 +22,29 @@ module.exports = {
         pacifico: ['Pacifico', 'cursive'],
         lobster: ['Lobster', 'cursive'],
         righteous: ['Righteous', 'cursive'],
-        // Add more font families here if needed
+
+        
       
+      },
+      keyframes: {
+        animate:{
+          '0%, 10%, 100%':{
+            width:'0%' 
+          },
+          '70%, 80%, 90%':{
+            width:'100%'
+
+          }
+        }
       },
       colors: {
         'tooltip-gray': '#ccd6f6',
       },
       
     },
+    animation: {
+      animate: 'animate 6s linear infinite',
+    }
   },
   plugins: [],
 }

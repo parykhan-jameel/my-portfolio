@@ -1,6 +1,8 @@
 import React from "react";
 import {Link} from "react-scroll"
 //import {ReactComponent as Illustration} from "../images/hero.svg";
+import {TypeAnimation} from "react-type-animation";
+import {motion} from "framer-motion"
 
 export default function Hero() {
     return (
@@ -11,8 +13,19 @@ export default function Hero() {
             Hi, I'm Parykhan.
           
             <br/>
-            <h1 className=" lg:inline-block text-gray-500 dark:text-[#8892b0] mt-4">I'm a Frontend Developer
+            <div>
+            <h1 className=" lg:inline-block text-gray-500 dark:text-[#8892b0] mt-4"><span>I'm a </span> 
+             <TypeAnimation sequence={[
+              'Frontend Developer',
+              2000,
+              
+             ]}
+             speed={30}
+             wrapper="span"
+             repeat={Infinity}
+             />
             </h1>
+            </div>
             </h1>
           
             <div className="flex justify-center">

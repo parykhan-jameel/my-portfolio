@@ -6,7 +6,10 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import jobie from "../images/jobie.png"
-import todo from "../images/todo.png"
+//import todo from "../images/todo.png"
+import colormind from "../images/colormind.png"
+import portfolio from "../images/portflio.png"
+import yumyum from "../images/yumyum.png"
 //import {Swiper, SwiperSlide} from "swiper/react";
 
 //import "swiper/css";
@@ -28,9 +31,21 @@ export default function Projects() {
        },
        {
         id:2,
-        src:todo,
-        demo:"https://todollist-app.netlify.app/",
-        github_code:"https://github.com/parykhan-/mnt/c/Users/CTC/my-portfolio/my-portfolio/src/imagesjameel/todo-list"
+        src:colormind,
+        demo:"https://v49-tier2-team-12.vercel.app/",
+        github_code: "https://github.com/chingu-voyages/v49-tier2-team-12"
+       },
+       {
+        id:3,
+        src:portfolio,
+        demo:"https://parykhanjameel.netlify.app/",
+        github_code:"https://github.com/parykhan-jameel/my-portfolio"
+       },
+       {
+        id:4,
+        src:yumyum,
+        demo:"https://v50-tier2-team-11-three.vercel.app/",
+        github_code:"https://github.com/chingu-voyages/v50-tier2-team-11"
        }
    ]
     return (
@@ -39,8 +54,12 @@ export default function Projects() {
         
         <div  className="flex flex-col  w-full mb-20" >
         <FontAwesomeIcon icon={faLaptopCode}  className="fa-2xl" style={{color:"#A5FFC9"}}  />
-            <h1 data-aos="fade-up" className=" sm:text-4xl text-3xl font-medium title-font  text-[#ccd6f6] mb-4" >
+            <h1 data-aos="fade-up" className=" sm:text-4xl text-2xl font-medium title-font  text-[#ccd6f6] mb-4" >
             Things I've Built 
+            <span  className="absolute left-1/2 transform -translate-x-1/2 bottom-[-0.5rem] h-0.5 bg-[#8892b0]"
+            style={{ width: "25%" }}>
+
+            </span>
             </h1>
           <p data-aos="fade-right" className="lg:w-2/3 mx-auto leading-relaxed text-base text-[#8892b0]">
             Through web development, HTML, CSS and JavaScript I've build cool and responsive websites, take a look at my works. 

@@ -1,6 +1,7 @@
 import React,{useEffect} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedinIn,faTwitter, faCodepen} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faLinkedinIn,faTwitter} from '@fortawesome/free-brands-svg-icons';
+import {faCode, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 //import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -23,13 +24,13 @@ export default function Footer() {
         </a> 
        </div>
        <div  className='text-[#8892b0] hover:text-[#A5FFC9] hover:cursor-pointer hover:ease-in-out duration-300'>
-       <a href='https://twitter.com/PMeeraziz' target='_blank' rel="noopener noreferrer">
-         <FontAwesomeIcon icon={faTwitter} className='fa-xl'/>
-       </a> 
+       <a href='mailto:parexan.00443431@gmail.com' target='_blank' rel="noopener noreferrer" >
+        <FontAwesomeIcon icon={faEnvelope} />
+        </a>
       </div>
       <div  className='text-[#8892b0] hover:text-[#A5FFC9] hover:cursor-pointer hover:ease-in-out duration-300'>
-       <a href='https://codepen.io/perry_meeraziz' target='_blank' rel="noopener noreferrer">
-         <FontAwesomeIcon icon={faCodepen} className='fa-xl'/>
+       <a href='https://www.frontendmentor.io/profile/parykhan-jameel' target='_blank' rel="noopener noreferrer">
+         <FontAwesomeIcon icon={faCode} className='fa-xl'/>
        </a> 
       </div>
       
